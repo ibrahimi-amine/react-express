@@ -6,11 +6,12 @@
     "socket.io": "^4.5.4"
   },
   "scripts": {
+    "build": "tsc && node dist/index.js",
     "start": "tsc && node dist/index.js"
   },
-  "repository": "https://forge.univ-lyon1.fr/p2208064/ibrahimi-tp1",
+  "repository": "https://github.com/ibrahimi-amine/react-express",
   "name": "server",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "server app",
   "main": "index.js",
   "author": "Mohamed Amine Ibrahimi",
