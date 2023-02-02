@@ -1,4 +1,4 @@
-# IBRAHIMI-TP2
+# IBRAHIMI-ELAMIM TP2
 
 ## Etat du projet
 Projet lancé sans aucun problème
@@ -82,6 +82,7 @@ Projet lancé sans aucun problème
         yarn add --dev eslint-webpack-plugin
 
 ## Utilisation
+        yarn                :  Installer les depéndeances
         yarn run dev        :  pour le build du client en developpement
         yarn run production :  pour le build du client en production,
         yarn run start      :  pour lancer le serveur
