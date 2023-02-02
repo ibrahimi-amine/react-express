@@ -1,0 +1,16 @@
+p {
+  text-align: center;
+  text-align: center;
+  border-style: double;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+div.notes {
+  text-align: center;
+  border-style: double;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
