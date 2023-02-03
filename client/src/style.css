@@ -7,24 +7,6 @@ div.app {
   height: 100%;
 }
 
-.arrow-left {
-  font-size:20px;
-  color:rgb(53, 51, 51)
-}
-.arrow-right {
-  font-size:20px;
-  color:rgb(53, 51, 51)
-}
-
-.arrow_left {
-  font-size:25px;
-  color:rgb(53, 51, 51)
-}
-.arrow_right {
-  font-size:25px;
-  color:rgb(53, 51, 51)
-}
-
 input.edition {
   width: 20px;
   margin-left: 2px;
@@ -53,7 +35,7 @@ div.center {
 }
 
 div.border {
-  border-top: 0.5px solid gray;
+  border-top: 0.5px solid rgb(94, 96, 152);
 }
 
 div.title {
@@ -74,7 +56,7 @@ div.title {
   left: 0;
   right: 0;
   height: 40px;
-  border-top: 0.5px solid gray;
+  border-top: 0.5px solid rgb(32, 110, 178);
 }
 
 table.content {
@@ -93,7 +75,7 @@ table.title {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgb(255, 255, 255);
+  background: rgb(88, 80, 130);
   font-family: 	"Times New Roman";
 }
 
@@ -111,6 +93,7 @@ th {
   height: 20px;
   padding: 1em;
   font-family: 	"Times New Roman";
+  border-radius:20px;
 }
 
 td.element {
@@ -126,44 +109,6 @@ td.plus {
   height: 40px;
 }
 
-.button_plus {
-  position: absolute;
-  background: rgb(214, 214, 214);
-  cursor: pointer;
-  border: none;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-}
-
-.button_plus:after {
-  content: "";
-  position: absolute;
-  transform: translate(-50%, -50%);
-  height: 2px;
-  width: 50%;
-  background: black;
-  top: 50%;
-  left: 50%;
-}
-
-.button_plus:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: black;
-  height: 50%;
-  width: 2px;
-}
-
-div.button_plus {
-  position: relative;
-  float: right;
-  margin-top: 0;
-}
-
 .button {
   border-radius: 2px;
   color: rgb(0, 0, 0);
@@ -173,6 +118,6 @@ div.button_plus {
 }
 
 .button:hover {
-  background-color: #555555;
+  background-color: #424141;
   color: white;
 } 

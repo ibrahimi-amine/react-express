@@ -17,7 +17,7 @@ export default function SlideShow(slides: SlidePack) {
   );
 
   if (id === undefined || id === null) {
-    window.location.href = "/#/1"
+    window.location.href = "/1"
   }
   else {
     React.useEffect(() => {
@@ -40,7 +40,7 @@ export default function SlideShow(slides: SlidePack) {
       if (isMobile) {
         return (
           <div>
-            <table className={`content ${opacity}`}>
+            <table className={`content ${opacity}`} >
               <tr>
                 <td className="element">
                   <ul>

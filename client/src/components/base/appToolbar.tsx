@@ -8,7 +8,7 @@ import { isMobile } from "react-device-detect";
 
 
 function redirect(index: string) {
-  window.location.href = "/#/" + index;
+  window.location.href = "/" + index;
 }
 
 
@@ -41,7 +41,7 @@ export default function AppToolbar(slides: SlidePack) {
     <div className="footer">
       <div className="top">
         <div className="left inline">
-          <button className="button" onClick={() => changeSlideVisibility(current)}>Visibility</button>
+          <button className="button" onClick={() => changeSlideVisibility(current)}>Change visibility</button>
         </div>
 
         <div className="right">
