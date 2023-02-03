@@ -1,7 +1,8 @@
 # IBRAHIMI-ELAMIM TP2
 
-## Etat du projet
-Projet lancé sans aucun problème
+## Comment lancer le projet
+L'application est bien déployée est accessible via le site : https://tiw8-ibrahimi-elamim.uni.codinget.me/
+Pour l'accéder em mode présentation : https://tiw8-ibrahimi-elamim.uni.codinget.me/present/1 
 
 ## Dépendances
 
